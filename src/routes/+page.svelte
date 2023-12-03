@@ -17,7 +17,7 @@
 		</div>
 	</div> -->
 	<img class="decorative self-center" alt="decorative" src="/images/composition_4.png"/>
-	<h1 class="block font-brightMelody text-center text-9xl text-antique-white">Hope Miner</h1>
+	<h1 class="block font-brightMelody text-center text-9xl text-antique-white">Hope Sommer</h1>
 	<h3 class="mt-2 flex justify-center font-mondeur text-pink text-3xl">Software Engineer</h3>
 	<div class="mt-9 bg-citron self-center rounded-lg p-4 text-dark-green font-mondeur">Download CV</div>
 </section>
