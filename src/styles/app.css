@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+
+background-color: #124543
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Tapioca';
+        src: local('Tapioca'), local('Tapioca-Typeface'), local('tapioca'), local('tapioca-typeface'),
+            url('/fonts/tapioca/Tapioca.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Tapioca-Shadow';
+        src: local('Tapioca-Shadow'), local('tapioca-shadow'),
+        url('/fonts/tapioca/TapiocaShadow.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'BrightMelody';
+        src: local('BrightMelody'), local('brightmelody'),
+        url('/fonts/brightMelody/BrightMelody.otf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Mondeur';
+        src: local('Mondeur'), local('mondeur'),
+        url('/fonts/mondeur/Mondeur.ttf');
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Mondeur';
+        src: local('Mondeur-Italic'), local('mondeur-italic'), local('MondeurItalic'), 
+        url('/fonts/monedeur/MonedeurItalic.ttf');
+        font-style: italic;
+    }
+}
