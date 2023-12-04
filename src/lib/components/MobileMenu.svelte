@@ -48,7 +48,7 @@
                 on:click={() => (display = false)} href='/projects' transition:fly={{ y: -15, delay: 50 * 2 }} 
                 class="{display ? '' : 'none'} text-dark-green font-mondeur text-5xl"
             >
-                Project
+                Projects
             </a>
        </Sheet>
 

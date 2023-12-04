@@ -3,6 +3,14 @@
 	--background: #FDB4C5
 }
 
+.marquee-container {
+	background-color: #E0447D !important;
+	font-family: 'mondeur' !important;
+	color: #CDC85D !important;
+	border-top: 3px solid #CDC85D;
+	border-bottom: 3px solid #CDC85D;
+}
+
 /* @import '@fontsource/fira-mono';
 
 :root {
