@@ -10,8 +10,11 @@ export default {
     },
     colors: {
       'sage': '#90BDA8',
+      'sage2': '#9A9E88',
+      'bone': '#EADFCD',
       'dark-green': '#124543',
       'antique-white': '#F0E4D1',
+      'raspberry': '#E0447D',
       'blue': '#1fb6ff',
       'citron': '#CDC85D',
       'purple': '#7e5bef',

@@ -1,9 +1,22 @@
+<script context="module">
+	export async function load({session}) {
+		return {
+			props : {
+				overrideMobile: session.mobile
+			}
+		}
+	}
+</script>
 <script>
+	import {width, mobile} from '$lib/utils/responsive';
+	export let overrideMobile = true;
+	$mobile=overrideMobile
 	import Header from './Header.svelte';
 	import './styles.css';
 	import "../styles/app.css"
+  import Page from './+page.svelte';
 </script>
-
+<svelte:window bind:innerWidth={$width}/>
 <div class="app">
 	<Header />
 

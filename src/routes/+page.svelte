@@ -13,11 +13,11 @@
 	<img class="decorative self-center" alt="decorative" src="/images/composition_4.png"/>
 	<h1 class="block font-brightMelody text-center text-7xl text-antique-white">Hope Sommer</h1>
 	<h3 class="mt-2 flex justify-center font-mondeur text-pink text-3xl">Software Engineer</h3>
-	<div class="mt-9 bg-citron self-center rounded-lg p-4 text-dark-green font-mondeur">Download CV</div>
+	<button href="/files/hope_sommer.pdf" class="mt-9 bg-citron self-center rounded-lg p-4 text-dark-green font-mondeur">Download CV</button>
+	<!-- <button class="btn btn-primary white-text"><a href="/files/hope_sommer.pdf" download>Download CV</a></button> -->
 </section>
 
 <style>
-ge
 	h1 {
 		width: 100%;
 	}
