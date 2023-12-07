@@ -27,6 +27,7 @@
 	"type": "module",
 	"dependencies": {
 		"drab": "^4.1.4",
-		"svelte-marquee": "^0.1.4"
+		"svelte-marquee": "^0.1.4",
+		"svelte-parallax": "^0.6.0"
 	}
 }

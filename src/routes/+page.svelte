@@ -7,6 +7,10 @@
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;400;700&display=swap" rel="stylesheet">
+
 </svelte:head>
 
 <section class="flex flex-col justify-center mt-12">

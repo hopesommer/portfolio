@@ -32,6 +32,7 @@ export default {
     extend: {
         fontFamily: {
           brightMelody: ['BrightMelody'],
+          inter: ['Inter', 'sans-serif'],
           mondeur: ['Mondeur'],
           tapioca: ['Tapioca', 'sans-serif'],
           tapiocaShadow: ['Tapioca-Shadow'],

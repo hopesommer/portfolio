@@ -45,28 +45,4 @@
 		bottom: 10px;
 		left: 10px;
 	}
-	.card {
-		border: 1px solid #F0E4D1;
-	}
-	.card :where(figure:first-child) {
-		overflow: hidden;
-		border-start-start-radius: inherit;
-		border-start-end-radius: inherit;
-		border-end-start-radius: unset;
-		border-end-end-radius: unset;
-	}
-	.card-actions {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		gap: 0.5rem;
-	}
-	.card-body {
-		flex: 1 1 auto;
-		padding: var(--padding-card, 2rem);
-		gap: 0.5rem;
-	}
-	.card-actions {
-		gap: 0.5rem;
-	}
 </style>
