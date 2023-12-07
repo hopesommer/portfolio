@@ -110,14 +110,14 @@
                 position: relative;
             "
         >
-        <div class="px-8 py-8 mb-5 font-mondeur text-pink text-5xl self-start justify-self-start">Skills</div>
+        <div class="px-8 py-8 font-mondeur text-pink text-5xl self-start justify-self-start">Skills</div>
         <div class="card-actions px-4 justify-end mb-12">
             {#each resume.skills as skill}
                  <div class="px-3 inline rounded-full bg-citron text-sm font-medium font-mondeur text-dark-green">{skill.name}</div>
             {/each}
         </div>
         <button 
-            class="cta mt-12 rounded-full px-3 top-btn bg-raspberry text-citron font-mondeur" 
+            class="cta -mt-5 rounded-full px-3 top-btn bg-raspberry text-citron font-mondeur" 
                 on:click={() => parallax.scrollTo(1, {selector: '.main-title', duration: 1000})}
             >
                 Scroll to top
@@ -138,7 +138,7 @@
     background: url('../images/pear.png') no-repeat fixed center !important;
 }
 .scrollImg {
-    bottom: -20%;
+    bottom: -30%;
 }
 </style>
 
